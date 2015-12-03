@@ -1,0 +1,10 @@
+﻿<Window x:Class="AdventOfCode.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Advent of Code solutions by Sowiszcze@GitHub" Height="107" Width="621" MinHeight="107" MaxHeight="107">
+    <Grid>
+        <ComboBox x:Name="SolutionComboBox" Margin="114,13,10,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <Label x:Name="SolutionLabel" Content="Select a solution:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="SolutionButton" Content="Take me on an adventure!" Margin="0,0,10,10" HorizontalAlignment="Right" Width="155" Height="20" VerticalAlignment="Bottom" Click="ShowSolutionWindow" Grid.Column="1"/>
+    </Grid>
+</Window>
