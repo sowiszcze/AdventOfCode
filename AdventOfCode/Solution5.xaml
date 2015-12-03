@@ -1,0 +1,10 @@
+﻿<base:SolutionBase x:Class="AdventOfCode.Solution5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:base="clr-namespace:AdventOfCode" Height="300" Width="519" Title="Solution1">
+    <Grid>
+        <TextBox x:Name="InputTextBox" Margin="10,10,10,63" TextWrapping="Wrap" AcceptsReturn="True" AcceptsTab="True"/>
+        <Button x:Name="ProcessButton" Content="Get result!" Margin="0,0,10,38" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Bottom" Click="Process"/>
+        <TextBox x:Name="ResultTextBox" Margin="10,0,10,10" TextWrapping="Wrap" Height="23" VerticalAlignment="Bottom"/>
+    </Grid>
+</base:SolutionBase>
