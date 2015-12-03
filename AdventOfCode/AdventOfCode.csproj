@@ -53,6 +53,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Solution3.xaml.cs">
+      <DependentUpon>Solution3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Solution2.xaml.cs">
       <DependentUpon>Solution2.xaml</DependentUpon>
     </Compile>
@@ -73,6 +76,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Solution3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Solution2.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

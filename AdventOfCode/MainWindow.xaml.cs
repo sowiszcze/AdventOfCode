@@ -34,6 +34,7 @@ namespace AdventOfCode
                                                                 !t.IsAbstract &&
                                                                 t.IsSubclassOf(solutionType) &&
                                                                 t.GetCustomAttributes(typeof(AOCSolutionAttribute), true).Length > 0))
+                                  .OrderBy(c => c.Name)
                                   .ToDictionary(k => (k.GetCustomAttributes(typeof(AOCSolutionAttribute), true).First() as AOCSolutionAttribute).Name,
                                                 v => v);
 
