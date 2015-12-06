@@ -1,4 +1,4 @@
-﻿<base:SolutionBase x:Class="AdventOfCode.Solution8"
+﻿<base:SolutionBase x:Class="AdventOfCode.Solution9"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:base="clr-namespace:AdventOfCode" Height="300" Width="519" Title="Solution1">

@@ -54,6 +54,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="EnumerableExtensions.cs" />
+    <Compile Include="Solution9.xaml.cs">
+      <DependentUpon>Solution9.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Solution8.xaml.cs">
       <DependentUpon>Solution8.xaml</DependentUpon>
     </Compile>
@@ -92,6 +95,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Solution9.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Solution8.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
