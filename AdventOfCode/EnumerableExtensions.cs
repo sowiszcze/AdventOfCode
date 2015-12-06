@@ -30,5 +30,15 @@ namespace AdventOfCode
             }
             return count;
         }
+
+        public static int Sum<T>(this T[,] mesh, Func<T, int> selector)
+        {
+            int count = 0;
+            foreach (T item in mesh)
+            {
+                count += selector(item);
+            }
+            return count;
+        }
     }
 }
