@@ -23,9 +23,6 @@ namespace AdventOfCode
     [AOCSolution("Day 5, part 2")]
     public partial class Solution10 : SolutionBase
     {
-        private const int MINIMUM_VOWELS = 3;
-        private const int MINIMUM_DUPLICATES = 2;
-
         public Solution10()
         {
             InitializeComponent();

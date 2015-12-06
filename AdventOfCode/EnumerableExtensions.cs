@@ -17,5 +17,18 @@ namespace AdventOfCode
             }
             return result;
         }
+
+        public static int Count<T>(this T[,] mesh, Predicate<T> predicate)
+        {
+            int count = 0;
+            foreach (T item in mesh)
+            {
+                if (predicate(item))
+                {
+                    ++count;
+                }
+            }
+            return count;
+        }
     }
 }
